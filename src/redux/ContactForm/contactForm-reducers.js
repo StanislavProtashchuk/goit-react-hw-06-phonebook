@@ -1,7 +1,6 @@
-
 import { combineReducers } from 'redux';
 import { createReducer } from '@reduxjs/toolkit';
-import * as actions from './phoonebook-actions';
+import * as actions from './contactForm-actions';
 console.log(actions.addContact.type);
 
 const initialStateContacts = [
